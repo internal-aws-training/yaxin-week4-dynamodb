@@ -1,0 +1,145 @@
+{
+    "Project_Yaxin": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "projectName": {
+                        "S": "testName2"
+                    },
+                    "projectType": {
+                        "S": "testType2"
+                    },
+                    "memberName": {
+                        "S": "testMemterName2"
+                    },
+                    "startDate": {
+                        "S": "2020-5-30"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "projectName": {
+                        "S": "testName3"
+                    },
+                    "projectType": {
+                        "S": "testType3"
+                    },
+                    "memberName": {
+                        "S": "testMemterName3"
+                    },
+                    "startDate": {
+                        "S": "2020-5-30"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "projectName": {
+                        "S": "testName4"
+                    },
+                    "projectType": {
+                        "S": "testType4"
+                    },
+                    "memberName": {
+                        "S": "testMemterName4"
+                    },
+                    "startDate": {
+                        "S": "2020-5-31"
+                    },
+                    "integer": {
+                        "N": "10"
+                    },
+                    "blob": {
+                        "B": "blob"
+                    },
+                    "stringArray": {
+                        "SS": [
+                            "a",
+                            "b",
+                            "c",
+                            "3"
+                        ]
+                    },
+                    "integerArray": {
+                        "NS": [
+                            "0",
+                            "2"
+                        ]
+                    },
+                    "blobArray": {
+                        "BS": [
+                            "a",
+                            "b",
+                            "c",
+                            "3"
+                        ]
+                    },
+                    "null": {
+                        "NULL": true
+                    },
+                    "boolean": {
+                        "BOOL": false
+                    },
+                    "tuple": {
+                        "L": [
+                            {
+                                "S": "aa"
+                            },
+                            {
+                                "N": "22"
+                            }
+                        ]
+                    },
+                    "map": {
+                        "M": {
+                            "key": {
+                                "S": "aaa"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest" :{     
+                "Item":{
+                    "projectName": {
+                        "S": "testName5"
+                    },
+                    "projectType": {
+                        "S": "testType5"
+                    },
+                    "memberName": {
+                        "S": "testMemterName5"
+                    },
+                    "startDate": {
+                        "S": "2020-5-30"
+                    }
+                }
+            } 
+        },
+        {
+            "PutRequest" :{     
+                "Item":{
+                    "projectName": {
+                        "S": "testName6"
+                    },
+                    "projectType": {
+                        "S": "testType6"
+                    },
+                    "memberName": {
+                        "S": "testMemterName6"
+                    },
+                    "startDate": {
+                        "S": "2020-5-30"
+                    }
+                }
+            } 
+        }
+    ]
+}
